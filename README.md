@@ -2,7 +2,7 @@
 
 A comprehensive Spring Boot application demonstrating various Spring concepts including bean scopes, annotations, qualifiers, and dependency injection.
 
-## 🚀 Features Implemented
+## Features Implemented
 
 ### 1. **Bean Scopes**
 - **Singleton** (default): `SmsNotificationService` - Same instance for all injections
@@ -59,7 +59,7 @@ A comprehensive Spring Boot application demonstrating various Spring concepts in
 - `GET /api/users/search?fullName=name` - Search users by full name
 - `POST /api/users/{userId}/tasks` - Add task to user
 
-## 🏗️ Architecture
+## Architecture
 
 ### Model Layer
 - `Task` - Task entity with JPA annotations
@@ -95,7 +95,7 @@ A comprehensive Spring Boot application demonstrating various Spring concepts in
 - **Maven** for dependency management
 - **Java 17**
 
-## 🚀 How to Run
+## How to Run
 
 1. **Prerequisites**
    - Java 17 or higher
@@ -113,7 +113,7 @@ A comprehensive Spring Boot application demonstrating various Spring concepts in
      - Username: `sa`
      - Password: (leave empty)
 
-## 📝 Sample API Usage
+## Sample API Usage
 
 ### Create a User
 ```bash
